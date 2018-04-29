@@ -1,0 +1,90 @@
+jshell
+
+jshell> /help intro
+
+jshell> /exit
+
+jshell> System.out.println("O primeiro de muitos!");
+
+jshell> int age = 28
+
+jshell> age
+
+jshell> "Rodrigo Turini"
+
+jshell> /list
+
+jshell> $5.toUpperCase()
+
+jshell> 1 + 1
+
+jshell> /set feedback silent
+
+-> String example
+
+-> /set feedback verbose
+
+jshell> String example
+
+jshell> long fibonacci(long n){
+   ...>   if(n<2) return n;
+   ...>     return fibonacci(n-1) + fibonacci(n-2);
+   ...> }
+      
+jshell> for(int i = 0; i < 5; i++ ){
+   ...>   System.out.println(fibonacci(i));
+   ...> }
+   
+jshell> /list fibonacci
+
+jshell> /set editor vim
+
+jshell> /set editor notepad
+
+jshell> /list
+
+jshell> /drop 5
+
+jshell> /drop 4
+
+jshell> /types
+
+jshell> /methods
+
+jshell> /vars
+
+jshell> new Fibonacci().loop(5)
+
+jshell> /edit Fibonacci
+
+jshell> /imports
+
+jshell> import java.util.*
+
+jshell> LocalDate (Shift + Tab i)
+0: Do nothing
+1: import: java.time.LocalDate
+Choice: 1
+Imported: java.time.LocalDate
+
+jshell> import static java.util.stream.Stream.of;
+
+jshell> new Fibonacci() (Shift + Tab v)
+jshell> Fibonacci  = new Fibonacci()
+
+jshell> Stream. (Tab)
+Builder		builder()		class		concat(		empty()		generate(		iterate(		of(		ofNullable(
+
+jshell> Stream.of( (Tab)
+Signatures:
+Stream<T> Stream<T>.<T>of(T t)
+Stream<T> Stream<T>.<T>of(T... values)
+<press tab again to see documentation>
+
+jshell> /help
+
+jshell> /save arquivo
+
+jshell> open arquivo
+
+C:\Users\helciodasilva>jshell arquivo
